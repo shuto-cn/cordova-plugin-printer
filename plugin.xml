@@ -97,6 +97,7 @@
         <preference name="ANDROID_SUPPORT_V4_VERSION" default="28.+"/>
 
         <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
+        <framework src="src/android/printer.gradle" custom="true" type="gradleReference"/>
 
         <source-file src="src/android/PrintAdapter.java"
             target-dir="src/de/appplant/cordova/plugin/printer" />
